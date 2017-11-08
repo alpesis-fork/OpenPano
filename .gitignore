@@ -31,3 +31,17 @@ Debug
 cmake_install.cmake
 src/cmake_install.cmake
 .vs/
+
+# editor
+*.swo
+*.swp
+*.swn
+*.swm
+
+# build
+_build
+
+# data
+data
+config.cfg
+out.jpg

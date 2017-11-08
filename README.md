@@ -1,5 +1,19 @@
 # OpenPano
 
+## Getting started
+
+- OS: Ubuntu 14.04
+
+```
+$ sudo apt-get install libeigen3-dev
+$ mkdir build && cd build
+$ cmake ..
+$ make
+$ cd ..
+$ cp src/config.cfg ./
+$ ./build/src/image-stitching <img1> <img2> <img3> ...
+```
+
 ![cmu0](results/CMU0-all.jpg)
 
 ## Introduction
